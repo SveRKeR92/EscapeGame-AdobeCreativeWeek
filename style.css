@@ -43,6 +43,10 @@ body {
     color: white;
 }
 
+.planche:nth-last-child(-n+2) {
+    display: none;
+}
+
 
 .square{
     width: 150px;

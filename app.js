@@ -1,8 +1,8 @@
 let input  = document.getElementById("input1");
 let button = document.getElementById("submit");
-let planks = document.getElementsByClassName("square");
+let planks = document.getElementsByClassName("planche");
 
-let numberPuzzle = 0
+let numberPuzzle = 1
 let answers = [42, "key", 852]
 
 
@@ -18,7 +18,7 @@ button.addEventListener("click", function(event){
       let inputValue = input.value;
       console.log(inputValue);
 
-      if (inputValue == answers[numberPuzzle]){
+      if (inputValue == answers[numberPuzzle - 1]){
             planks[numberPuzzle].style.display = "block";
             numberPuzzle++;
       }
