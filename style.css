@@ -37,3 +37,11 @@ img {
     padding: 70px;
     color: white;
 }
+
+
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    display: none;  
+}
