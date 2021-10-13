@@ -26,6 +26,20 @@ body {
     flex-direction: column;
 }
 
+.machine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    flex-direction: row;
+}
+
+.ordi {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
 .number81 {
     padding: 70px 70px 70px 80%;
     color: white;
