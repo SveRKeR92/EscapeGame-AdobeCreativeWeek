@@ -1,6 +1,39 @@
-iframe {
-    height: 350px;
-    margin: auto;
-    width: 350px;
+body {
+    background: linear-gradient(#227F8D, #23645B, #114E4C, #070F0E);
+}
 
+.planches {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 30%;
+}
+
+.code {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.number81 {
+    margin-left: 80%;
+    padding: 70px;
+    color: white;
+}
+
+.number71 {
+    float: left;
+    padding: 70px;
+    color: white;
+}
+
+.number7 {
+    margin-left: 50%;
+    padding: 70px;
+    color: white;
 }
