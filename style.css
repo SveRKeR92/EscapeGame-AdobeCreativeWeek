@@ -27,8 +27,7 @@ body {
 }
 
 .number81 {
-    margin-left: 80%;
-    padding: 70px;
+    padding: 70px 70px 70px 80%;
     color: white;
 }
 
@@ -38,8 +37,7 @@ body {
 }
 
 .number7 {
-    margin-left: 50%;
-    padding: 70px;
+    padding: 70px 70px 70px 50%;
     color: white;
 }
 
@@ -51,10 +49,6 @@ body {
     opacity: 0%;
 }
 
-
-.square{
-    width: 150px;
-    height: 150px;
-    background-color: chocolate;
-    display: none;  
+.number81, .number71, .number7 {
+    opacity: 0%;
 }
