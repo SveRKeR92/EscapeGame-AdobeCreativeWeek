@@ -4,3 +4,11 @@ iframe {
     width: 350px;
 
 }
+
+
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    display: none;  
+}
