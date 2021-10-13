@@ -44,7 +44,11 @@ body {
 }
 
 .planche:nth-last-child(-n+2) {
-    display: none;
+    opacity: 0%;
+}
+
+.victory {
+    opacity: 0%;
 }
 
 
