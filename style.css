@@ -11,7 +11,9 @@ html{
 }
 
 body {
-    background: linear-gradient(#227F8D, #23645B, #114E4C, #070F0E);
+    background-image: url("img/Web\ –\ 10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 a{
