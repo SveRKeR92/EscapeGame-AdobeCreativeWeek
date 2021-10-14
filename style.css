@@ -100,7 +100,7 @@ header{
 }
 
 .enigme:nth-last-child(-n+2){
-    display: none;
+    opacity: 0%;
 }
 
 .enigme {

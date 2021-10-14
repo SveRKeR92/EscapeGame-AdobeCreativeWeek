@@ -60,7 +60,7 @@ button.addEventListener("click", function(event){
             
             
             if(numberPuzzle < 3) {
-                  enigmes[numberPuzzle].style.display= "flex";
+                  enigmes[numberPuzzle].style.opacity= "100%";
             }
 
             if (numberPuzzle == 3) {
