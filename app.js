@@ -1,6 +1,6 @@
 let input  = document.getElementById("input1");
 let button = document.getElementById("submit");
-let planks = document.getElementsByClassName("planche");
+let enigmes = document.getElementsByClassName("enigme");
 let victory = document.getElementsByClassName("victory");
 var display1 = setInterval(setOpacity1, 8000);
 var display2 = setInterval(setOpacity2, 12000);
@@ -55,13 +55,12 @@ function setOpacity2() {
 button.addEventListener("click", function(event){
       event.preventDefault();
       let inputValue = input.value;
-      console.log(inputValue);
 
       if (inputValue == answers[numberPuzzle - 1]){
             
             
             if(numberPuzzle < 3) {
-                  planks[numberPuzzle].style.opacity= "100%";
+                  enigmes[numberPuzzle].style.display= "flex";
             }
 
             if (numberPuzzle == 3) {
@@ -69,5 +68,7 @@ button.addEventListener("click", function(event){
                   document.getElementsByClassName("victory")[0].style.opacity = "100%";
             }
             numberPuzzle++;
+            input.value = "";
+            location.hash = '#enigme' + numberPuzzle;
       }
 });

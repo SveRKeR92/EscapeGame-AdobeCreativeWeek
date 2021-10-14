@@ -12,14 +12,17 @@
     <img src="img/zdasza.png" id="logo" alt="Projet Atlantis Logo">
   </header>
   <div class="machine">
-    <img class="ordi" src="img/image0.png" alt="">
+    <div class="wrapper">
+      <img class="ordi" src="img/image0.png" alt="">
+      <input type="text" id="input1">
+    </div>
     <div class="rightColumn">
       <p class="crack">Voici ta machine… elle t'aidera a passer les differents mysteres que tu vas rencontrer au fil de ton aventure.</p>
       <button class="buttonFirst">Voir la première énigme</button>
     </div>
     
   </div>
-  <input type="text" id="input1">
+  <!-- <input type="text" id="input1"> -->
   <button id="submit">TRY</button>
   <div class="planches">
     <img class="planche" src="img/Frame 11.png" alt="">
@@ -27,22 +30,26 @@
     <img class="planche" src="img/Frame 13.png" alt="">
   </div>
 
-  <div class="enigme1">
-    <h2><span class="gilroy">1ère</span><br> <span class="crack">ENIGME</span></h2>
-    <img class="planche1" src="img/Frame 11.png" alt="">
-    <button>PROCHAINE ENIGME</button>
-  </div>
+  <div>
 
-  <div class="enigme2">
-    <h2><span class="gilroy">2ème</span><br><span class="crack">ENIGME</span></h2>
-    <img class="planche2" src="img/Frame 12.png" alt="">
-    <button>PROCHAINE ENIGME</button>
-  </div>
-
-  <div class="enigme3">
-    <h2><span class="gilroy">3ème</span><br><span class="crack">ENIGME</span></h2>
-    <img class="planche3" src="img/Frame 13.png" alt="">
-    <button>ENIGME FINALE</button>
+    <div class="enigme" id="enigme1">
+      <h2><span class="gilroy">1ère</span><br> <span class="crack">ENIGME</span></h2>
+      <img class="planche1" src="img/Frame 11.png" alt="">
+      <button>PROCHAINE ENIGME</button>
+    </div>
+    
+    <div class="enigme" id="enigme2">
+      <h2><span class="gilroy">2ème</span><br><span class="crack">ENIGME</span></h2>
+      <img class="planche2" src="img/Frame 12.png" alt="">
+      <button>PROCHAINE ENIGME</button>
+    </div>
+    
+    <div class="enigme" id="enigme3">
+      <h2><span class="gilroy">3ème</span><br><span class="crack">ENIGME</span></h2>
+      <img class="planche3" src="img/Frame 13.png" alt="">
+      <button>ENIGME FINALE</button>
+    </div>
+    
   </div>
 
   <div class="victory">
