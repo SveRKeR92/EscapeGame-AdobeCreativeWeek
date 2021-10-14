@@ -52,7 +52,7 @@ function setOpacity2() {
 
 
 
-button.addEventListener("click", function(event){
+button.addEventListener("click", async function(event){
       event.preventDefault();
       let inputValue = input.value;
 
@@ -71,5 +71,9 @@ button.addEventListener("click", function(event){
             numberPuzzle++;
             input.value = "";
             location.hash = '#enigme' + numberPuzzle;
+      }else{
+           document.getElementsByClassName("ordi")[0].classList.add("shake");
+           await new Promise(resolve => setTimeout(resolve, 1000));
+           document.getElementsByClassName("ordi")[0].classList.remove("shake");
       }
 });

@@ -27,43 +27,14 @@ header{
     place-items: center;
 }
 
-.bulle1 {
-    position: absolute;
-    left: 90%;
-    top: 70%;
+.gilroy {
+    font-family: "Gilroy";
+    font-size: 55px;
 }
 
-.bulle2 {
-    position: absolute;
-    left: 0%;
-    top: 140%;
-}
-
-.bulle3{
-    position: absolute;
-    left: 80%;
-    top: 210%;
-}
-
-
-.bulle4{
-    position: absolute;
-    left: 0%;
-    top: 280%;
-}
-
-.shark1{
-    position: absolute;
-    left: 20%;
-    top: 400%;
-    opacity: 0.4;
-}
-
-.shark2{
-    position: absolute;
-    left: 80%;
-    top: 380%;
-    opacity: 0.2;
+.crack{
+    font-family: "Crack Wall";
+    font-size: 60px;
 }
 
 .planches {
@@ -100,19 +71,28 @@ header{
 }
 
 .number81 {
-    padding: 70px 70px 70px 80%;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 15%;
+    top: 150%;
     color: white;
     /* transform: rotate(79deg); */
 }
 
 .number71 {
-    padding: 70px;
+    position: absolute;
+    transform: rotate(24deg);
+    left: 80%;
+    top: 200%;
     color: white;
     /* transform: rotate(-46deg); */
 }
 
 .number7 {
-    padding: 70px 70px 70px 50%;
+    position: absolute;
+    transform: rotate(60deg);
+    left: 10%;
+    top: 300%;
     color: white;
     /* transform: rotate(24deg); */
 }
@@ -177,16 +157,6 @@ header{
     text-align: right;
 }
 
-.gilroy {
-    font-family: "Gilroy";
-    font-size: 55px;
-}
-
-.crack{
-    font-family: "Crack Wall";
-    font-size: 60px;
-}
-
 .up {
     position: fixed;
     bottom : 10px;
@@ -212,7 +182,7 @@ header{
     padding: 10px 10px;
     background-color: #65786B;
     outline: none;
-    border: 1px solid #8F8F8F;
+    border: 2px solid #364138;
     border-radius: 5px;
     margin-right: 10px;
     
@@ -221,7 +191,7 @@ header{
 
 #submit{
     padding: 10px;
-    border: 2px solid #8F8F8F;
+    border: 2px solid #364138;
     background-color: #216159;
     border-radius: 5px;
     cursor: pointer;
@@ -237,3 +207,18 @@ header{
     transition: 2s;
 }
 
+.shake{
+    animation: shake-animation 5s ease;
+}
+
+
+@keyframes shake-animation {
+    0% { transform:translate(0,0) }
+   1.78571% { transform:translate(5px,0) }
+   3.57143% { transform:translate(0,0) }
+   5.35714% { transform:translate(5px,0) }
+   7.14286% { transform:translate(0,0) }
+   8.92857% { transform:translate(5px,0) }
+   10.71429% { transform:translate(0,0) }
+   100% { transform:translate(0,0) }
+ }
