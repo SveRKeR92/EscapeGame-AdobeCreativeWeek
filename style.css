@@ -66,3 +66,28 @@ body {
 .number81, .number71, .number7 {
     opacity: 0%;
 }
+
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.enigme1, .enigme2, .enigme3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.enigme1 img, .enigme2 img, .enigme3 img {
+    width: 60%;
+}
+
+.enigme1 button, .enigme2 button, .enigme3 button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: blue;
+}
