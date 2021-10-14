@@ -43,7 +43,7 @@ header{
 }
 
 .ordi {
-    width: 50%;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
@@ -116,4 +116,24 @@ header{
 .crack{
     font-family: "Crack Wall";
     font-size: 60px;
+}
+
+.wrapper {
+    position: relative;
+}
+
+/* .wrapper img{
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+.wrapper input{
+    position: absolute;
+    top: 95px;
+    left: 305px;
+    width: 135px;
+    height: 90px;
+    color: black;
+    font-size: 40px;
 }
