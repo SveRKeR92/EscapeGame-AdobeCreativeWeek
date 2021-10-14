@@ -213,6 +213,7 @@ header{
     border: 2px solid #8F8F8F;
     background-color: #216159;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .fa-play{
