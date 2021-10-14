@@ -12,14 +12,8 @@ body {
 header{
     height: 225px;
     background-image: url('./img/headerbcg.png');
-    background-size: cover;
-    background-repeat: repeat-x;
     display: grid;
     place-items: center;
-}
-
-header img{
-    width: 100px;
 }
 
 .planches {
