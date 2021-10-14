@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Crack Wall';
+    color: white;
 }
 
 body {
@@ -94,8 +94,26 @@ header{
     width: 60%;
 }
 
-.enigme1 button, .enigme2 button, .enigme3 button {
-    padding: 10px 20px;
-    border-radius: 25px;
-    background-color: blue;
+.enigme1 button, .enigme2 button, .enigme3 button, .buttonFirst {
+    padding: 20px 40px;
+    font-size: 30px;
+    border-radius: 40px;
+    background-color: #216159;
+    border: 6px solid white;
+    font-family: "Gilroy Bold";
+    cursor: pointer;
+}
+
+.enigme1 h2, .enigme2 h2, .enigme3 h2 {
+    text-align: right;
+}
+
+.gilroy {
+    font-family: "Gilroy-Heavy";
+    font-size: 40px;
+}
+
+.crack{
+    font-family: "Crack Wall";
+    font-size: 60px;
 }
