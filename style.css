@@ -104,12 +104,11 @@ header{
     display: none;
     justify-content: center;
     align-items: center;
-    left: 50%;
-    top: 50%;
-    width: 500px;
-    height: 400px;
-    margin-top: -200px;
-    margin-left: -250px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.89);
 }
 
 .number81, .number71, .number7 {
