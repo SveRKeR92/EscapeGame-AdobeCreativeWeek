@@ -100,8 +100,8 @@ header{
 }
 
 .enigme img {
-    width: 60%;
-    margin: 25px 0;
+    width: 50%;
+    margin: 110px 0;
 }
 
 .enigme button, .buttonFirst {
@@ -112,6 +112,7 @@ header{
     border: 6px solid white;
     font-family: "Gilroy Bold";
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .enigme h2 {
@@ -120,7 +121,7 @@ header{
 
 .gilroy {
     font-family: "Gilroy-Heavy";
-    font-size: 40px;
+    font-size: 55px;
 }
 
 .crack{
