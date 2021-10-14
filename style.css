@@ -21,6 +21,18 @@ header{
     place-items: center;
 }
 
+.bulle1 {
+    position: absolute;
+    left: 90%;
+    top: 70%;
+}
+
+.bulle2 {
+    position: absolute;
+    left: 0%;
+    top: 140%;
+}
+
 .planches {
     display: flex;
     flex-direction: row;
@@ -120,7 +132,7 @@ header{
 }
 
 .gilroy {
-    font-family: "Gilroy-Heavy";
+    font-family: "Gilroy";
     font-size: 55px;
 }
 
