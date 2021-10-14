@@ -65,9 +65,7 @@ header{
 }
 
 .ordi {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+    width: 120%;
 }
 
 .number81 {
@@ -102,9 +100,8 @@ header{
 }
 
 .victory {
-    opacity: 0%;
     position: fixed;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     left: 50%;

@@ -65,7 +65,7 @@ button.addEventListener("click", async function(event){
 
             if (numberPuzzle == 3) {
                   console.log(victory);
-                  document.getElementsByClassName("victory")[0].style.opacity = "100%";
+                  document.getElementsByClassName("victory")[0].style.display = "flex";
                   document.getElementsByClassName("machine")[0].style.opacity = "20%";
             }
             numberPuzzle++;
