@@ -91,3 +91,11 @@ body {
     border-radius: 25px;
     background-color: blue;
 }
+
+.enigme1 h2, .enigme2 h2, .enigme3 h2 {
+    text-align: right;
+}
+
+.crack{
+    font-family: "Crack Wall";
+}
