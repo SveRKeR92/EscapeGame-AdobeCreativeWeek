@@ -123,6 +123,9 @@ header{
 
 .victory {
     opacity: 0%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
 }
 
 .number81, .number71, .number7 {

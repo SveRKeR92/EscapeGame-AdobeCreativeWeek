@@ -7,7 +7,7 @@ var display2 = setInterval(setOpacity2, 12000);
 var display3 = setInterval(setOpacity3, 5000);
 
 let numberPuzzle = 1
-let answers = ["LuTiN", "key", 852]
+let answers = ["1", "2", "3"]
 
 
 input.addEventListener("keyup", function(event){
