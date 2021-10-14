@@ -2,10 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Crack Wall';
 }
 
 body {
     background: linear-gradient(#227F8D, #23645B, #114E4C, #070F0E);
+}
+
+header{
+    height: 225px;
+    background-image: url('./img/headerbcg.png');
+    background-size: cover;
+    background-repeat: repeat-x;
+    display: grid;
+    place-items: center;
+}
+
+header img{
+    width: 100px;
 }
 
 .planches {
